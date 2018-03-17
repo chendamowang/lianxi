@@ -12,7 +12,7 @@ class test(object):
                     if i != j and i != k and j != k:
                         print i,j,k
                         n += 1
-        print n
+        print '总数是: %d' % n
         
 
 if __name__ == '__main__':
